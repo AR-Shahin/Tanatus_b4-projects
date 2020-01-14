@@ -8,6 +8,7 @@
 }
 html{
 	font-style: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -18,7 +19,9 @@ ul{
     padding: 0;
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 /* HEADING */
 h2{
     position: relative;
@@ -72,11 +75,13 @@ p{
     color: #fff;
     text-transform: uppercase;
     border: 1px solid #ccc;
+    text-decoration: none;
 }
 .btn-ars:hover{
     border: 1px solid transparent;
     background: #f7600e;
     color: #fff;
+    text-decoration: none;
 }
 
 /* btn-shahin*/
@@ -472,4 +477,10 @@ footer{
 }
 footer span{
     text-transform: uppercase;
+}
+
+.active{
+    color: #fff;
+    background: #f7600e;
+    border-radius: 3px;
 }
