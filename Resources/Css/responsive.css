@@ -36,6 +36,12 @@
     footer span{
         font-size: 12px;
     }
+    .form-box .social-link li{
+        margin-left: 5px;
+    }
+    .btn-form{
+        padding: 6px 20px;
+    }
 }
 
 
