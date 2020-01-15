@@ -484,3 +484,19 @@ footer span{
     background: #f7600e;
     border-radius: 3px;
 }
+
+.scroll{
+    height: 40px;
+    width: 40px;
+    background: #e67e22;
+    border-radius: 5%;
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    color: #fff;
+    text-align: center;
+}
+.scroll .fas{
+    font-size: 24px;
+    padding: 6px;
+}
