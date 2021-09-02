@@ -24,7 +24,7 @@ $(document).ready(function(){
         $('.scroll').hide();
     $(window).scroll(function(){
         var count = $(this).scrollTop();
-
+        $('#shahin').text(count)
         if(count < 100){
             $('.scroll').fadeOut();
         }
@@ -32,4 +32,21 @@ $(document).ready(function(){
             $('.scroll').fadeIn();
         }
     });
+
+    let navOne = $('#navOne')
+    let navTwo = $('#navTwo')
+    navTwo.hide()
+
+    $(window).scroll(function(){
+        var count = $(this).scrollTop();
+        if(count < 200){
+             navTwo.fadeOut()
+             navOne.fadeIn()
+        }
+        else{
+             navTwo.fadeIn()
+             navOne.fadeOut()
+        }
+    });
+
 });
